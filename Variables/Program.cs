@@ -43,8 +43,19 @@ namespace Variables
 
             number_1 = 50;
             number_2 = 100;
-            sum = number_2 + number_1;
+            sum = number_2 * number_1;
             Console.WriteLine(sum);
+
+            int serialNo = 1000;
+            string accountNo = "";
+            string studentId = "";
+            float anyNo = 3.4f;
+
+            accountNo = serialNo.ToString();
+            studentId = anyNo.ToString();
+            Console.WriteLine(accountNo);
+            Console.WriteLine(studentId);
+
         }
     }
 }
