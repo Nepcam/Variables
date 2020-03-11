@@ -31,6 +31,20 @@ namespace Variables
             House = " House Stark";
 
             Console.WriteLine("Hello, " + firstName + lastName + " from -" + House);
+
+            bool isWorking;
+            isWorking = false;
+            Console.WriteLine(isWorking);
+
+            int sum;
+            sum = 0;
+
+            int number_1, number_2;
+
+            number_1 = 50;
+            number_2 = 100;
+            sum = number_2 + number_1;
+            Console.WriteLine(sum);
         }
     }
 }
