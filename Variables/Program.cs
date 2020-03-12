@@ -48,13 +48,12 @@ namespace Variables
 
             int serialNo = 1000;
             string accountNo = "";
-            string studentId = "";
             float anyNo = 3.4f;
 
             accountNo = serialNo.ToString();
-            studentId = anyNo.ToString();
             Console.WriteLine(accountNo);
-            Console.WriteLine(studentId);
+
+            serialNo = (int)anyNo;
 
         }
     }
