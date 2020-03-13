@@ -45,16 +45,6 @@ namespace Variables
             number_2 = 100;
             sum = number_2 * number_1;
             Console.WriteLine(sum);
-
-            int serialNo = 1000;
-            string accountNo = "";
-            float anyNo = 3.4f;
-
-            accountNo = serialNo.ToString();
-            Console.WriteLine(accountNo);
-
-            serialNo = (int)anyNo;
-
         }
     }
 }
