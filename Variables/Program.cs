@@ -47,9 +47,9 @@ namespace Variables
             Console.WriteLine(sum);
 
             //int x = 5;
-            //string name = "Cam";
+            string name = "Cam";
 
-            var test = 1000d;
+            var test = name;
             Console.WriteLine(test);
         }
     }
