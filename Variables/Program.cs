@@ -46,10 +46,10 @@ namespace Variables
             sum = number_2 * number_1;
             Console.WriteLine(sum);
 
-            int x = 5;
-            string name = "Cam";
+            //int x = 5;
+            //string name = "Cam";
 
-            var test = 1000f;
+            var test = 1000d;
             Console.WriteLine(test);
         }
     }
