@@ -49,6 +49,7 @@ namespace Variables
             //int x = 5;
             string name = "Cam";
 
+            // Using the var variable
             var test = name;
             Console.WriteLine(test);
         }
